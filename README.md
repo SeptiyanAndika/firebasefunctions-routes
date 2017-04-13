@@ -3,7 +3,7 @@ Simple boilerplate firebase functions, with config routes. logic in folder funct
 
 # Example
 routes.js:
-
+```javascript
   let routes = {
     'get /middleware': ['middleware.test','user.getProfile'],
     'get /halo': ['user.hallo'],
@@ -11,4 +11,5 @@ routes.js:
   }
 
   module.exports = routes
+```
 
